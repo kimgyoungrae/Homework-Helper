@@ -54,8 +54,6 @@ class JournalEntry {
         createdAt = DateTime.now(),
         dueDate = dueDate ?? DateTime.now();
 
-  // Constructor to create a copy of the current JournalEntry with updated fields
-  // Invariant: The copied entry should have the same id as the original
   JournalEntry.withUpdatedText(JournalEntry entry, newText, DateTime newDueDate, String newAssingment, String newCourse, 
   String newInstructor, bool updateCompleted)
       : id = entry.id,

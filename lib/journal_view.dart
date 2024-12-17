@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:journal/journal_entry.dart';
 
-// Shows a single journal entry and allows the user to edit it.
 class JournalView extends StatefulWidget {
   final JournalEntry entry;
 

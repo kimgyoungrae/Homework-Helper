@@ -72,8 +72,8 @@ class AllEntriesView extends StatelessWidget {
 
     if (!context.mounted || newEntry == null) return;
 
-    final journal = Provider.of<JournalProvider>(context, listen: false); // get non listening reference to journalprovider
-    journal.upsertJournalEntry(newEntry); // call provider's upsert method with entry
+    final journal = Provider.of<JournalProvider>(context, listen: false); 
+    journal.upsertJournalEntry(newEntry); 
   }
 
   String _formatDateTime(DateTime when) {
