@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:isar/isar.dart';
-import 'package:journal/providers/journal_provider.dart';
-import 'package:journal/views/journal_view.dart';
-import 'package:journal/models/journal_entry.dart';
+import 'package:journal/journal_provider.dart';
+import 'package:journal/journal_view.dart';
+import 'package:journal/journal_entry.dart';
 import 'package:intl/intl.dart';
-import 'package:journal/models/journal.dart';
+import 'package:journal/journal.dart';
 import 'package:provider/provider.dart';
 
 class AllEntriesView extends StatelessWidget {

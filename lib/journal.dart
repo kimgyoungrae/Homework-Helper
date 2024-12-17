@@ -1,5 +1,5 @@
 
-import 'package:journal/models/journal_entry.dart';
+import 'package:journal/journal_entry.dart';
 import 'package:isar/isar.dart';
 
 class Journal {

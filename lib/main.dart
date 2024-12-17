@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:journal/models/journal_entry.dart';
-import 'package:journal/providers/journal_provider.dart';
-import 'package:journal/views/all_entries_view.dart';
+import 'package:journal/journal_entry.dart';
+import 'package:journal/journal_provider.dart';
+import 'package:journal/all_entries_view.dart';
 import 'package:provider/provider.dart';
 
 import 'package:isar/isar.dart';
